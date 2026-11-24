@@ -8,7 +8,8 @@ that zero is trustworthy.**
 
 Most backtesting write-ups show you the one strategy that worked. This one shows
 the apparatus that makes it impossible to fool yourself, and then reports the
-negative result it produced. Three tabs:
+negative result it produced. The search is closed; what is here is its record, plus
+a bench and a terminal that still run on the same engine and the same data. Three tabs:
 
 | Tab | What it is |
 |---|---|
@@ -61,7 +62,7 @@ ones. Under an independence assumption the same data looked like 129 tests.
 - **A three-way partition.** In-sample up to 2021-12-31, search from 2022-01-01 to
   2026-02-28, and a sealed slice from 2026-03-01 that each hypothesis may touch
   **once** in its life.
-- **A frozen engine.** The agent proposes signals; it cannot touch the cost model
+- **A frozen engine.** The agent proposed signals; it could not touch the cost model
   or the execution assumptions.
 - **Multiplicity under dependence.** Romano–Wolf and SPA over a block bootstrap,
   because the hypotheses are correlated and treating them as independent is how a
